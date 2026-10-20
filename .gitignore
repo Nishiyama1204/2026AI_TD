@@ -20,3 +20,8 @@ Student/
 assets/data/
 # ログイン情報（公開しない）
 .env
+# 第4回：受講者が撮った写真（公開しない）
+assets/myphotos/
+assets/mydata/
+assets/mynew_photos/
+assets/mynew/
