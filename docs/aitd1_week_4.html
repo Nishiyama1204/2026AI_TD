@@ -521,10 +521,10 @@ a.sub-item:hover {
     <div class="submission-box">
       <h3>📤 提出ガイド（<strong>全員が個人で提出</strong>・zip にしない）</h3>
       <div class="submission-items">
-        <a href="#sec-ex1" class="sub-item" style="text-decoration:none;color:inherit"><span class="sub-count">2</span><span class="tag tag-standard">演習1</span>ex1.ipynb ／ c1_d4_ex1_&lt;グループ&gt;.csv</a>
-        <a href="#sec-ex2" class="sub-item" style="text-decoration:none;color:inherit"><span class="sub-count">2</span><span class="tag tag-standard">演習2</span>ex2.ipynb ／ c1_d4_ex2_&lt;グループ&gt;.csv</a>
-        <a href="#sec-ex3" class="sub-item" style="text-decoration:none;color:inherit"><span class="sub-count">2</span><span class="tag tag-standard">演習3</span>ex3_infer.ipynb ／ c1_d4_ex3_&lt;グループ&gt;.csv</a>
-        <a href="#sec-opt" class="sub-item" style="text-decoration:none;color:inherit;border-color:#66BB6A"><span class="sub-count" style="background:#66BB6A">任意</span><span class="tag" style="background:#0a1a2e;color:#66BB6A">オプション</span>opt_vit.ipynb ／ c1_d4_opt4_&lt;グループ&gt;.csv</a>
+        <a href="#sec-ex1" class="sub-item" style="text-decoration:none;color:inherit"><span class="sub-count">2</span><span class="tag tag-standard">演習1</span>ex1.ipynb ／ c1_d4_ex1.csv</a>
+        <a href="#sec-ex2" class="sub-item" style="text-decoration:none;color:inherit"><span class="sub-count">2</span><span class="tag tag-standard">演習2</span>ex2.ipynb ／ c1_d4_ex2.csv</a>
+        <a href="#sec-ex3" class="sub-item" style="text-decoration:none;color:inherit"><span class="sub-count">2</span><span class="tag tag-standard">演習3</span>ex3_infer.ipynb ／ c1_d4_ex3.csv</a>
+        <a href="#sec-opt" class="sub-item" style="text-decoration:none;color:inherit;border-color:#66BB6A"><span class="sub-count" style="background:#66BB6A">任意</span><span class="tag" style="background:#0a1a2e;color:#66BB6A">オプション</span>opt_vit.ipynb ／ c1_d4_opt4.csv</a>
       </div>
       <div style="background:#0a1a2e;border:1px solid #2a6a9a;border-radius:8px;padding:0.8rem 1rem;margin-top:1rem;font-size:0.85rem;color:#81D4FA">
         <strong>手順:</strong> ノートブックを保存する → Open-LMS の「第4回 課題提出」へ<strong>自分で</strong>アップロード。CSV は <code>results/</code> 直下の自分のもの。<strong>写真と <code>my_cnn.pt</code> は出さない</strong>。
@@ -586,7 +586,7 @@ a.sub-item:hover {
       <div class="section-num" style="background:#FFB800">復習</div>
       <h2>復習プレゼン：過学習と正則化（20分）</h2>
     </div>
-    <p style="font-size:0.95rem;color:#ccc;margin-bottom:1rem">第3回を、<strong>番号①（presenter）と②の2人</strong>が<strong>別のグループに</strong>説明する。シートや画面は見ない。進め方と評価の観点は第3回と同じ（相談10分 → 出張プレゼン3分 → 評価2分 → 持ち帰り5分。流れ5点＋用語5点）。</p>
+    <p style="font-size:0.95rem;color:#ccc;margin-bottom:1rem">第3回を、<strong>番号①（presenter）と②の2人</strong>が<strong>別のグループに</strong>説明する。シートや画面は見ない。進め方と評価の観点は第3回と同じ（相談10分 → 出張プレゼン3分 → 評価2分 → 持ち帰り5分。流れ5点＋用語5点）。出張先は<strong>隣のグループ</strong>と組む。</p>
     <div class="card group">
       <div class="card-header"><h3>説明すること</h3></div>
       <ol style="font-size:0.9rem;padding-left:1.4rem;line-height:1.9">
@@ -689,7 +689,7 @@ a.sub-item:hover {
       <div class="card-header"><h3>ex2.ipynb のセルと、やること</h3></div>
       <table style="font-size:0.85rem">
         <tr><th style="width:5rem">見出し</th><th>セルがすること</th><th>あなたがやること</th></tr>
-        <tr><td>(0)・予測</td><td>グループ設定</td><td><code>GROUP_ID</code>・<code>MEMBER_NO</code> を書き換え、予測を書く</td></tr>
+        <tr><td>(0)・予測</td><td>番号の設定</td><td><code>MEMBER_NO</code> を書き換え、予測を書く</td></tr>
         <tr><td>(確認)</td><td>判定の確認問題</td><td>上の表を読んで答える（全問正解で先へ）</td></tr>
         <tr><td>(1)–(2)</td><td>5回 × 2モデル → 表・グラフ・判定</td><td>実行して読む</td></tr>
         <tr><td><strong>✋ 1</strong></td><td colspan="2">「差がある」と言えた人と言えなかった人のデータは何が違ったか</td></tr>
@@ -765,7 +765,7 @@ a.sub-item:hover {
     </div>
     <div class="card standard">
       <p style="font-size:0.9rem;color:#ccc;margin-bottom:0.5rem">ViT（Vision Transformer）は画像を 8×8 のパッチに切り、パッチの列を第2回の自己注意で見る。CNN と違い「近くの画素どうしが関係する」という前提を持たない。自分の写真で MLP・CNN・ViT を5回ずつ回して比べる（全部で 20〜60 秒）。</p>
-      <p style="font-size:0.85rem;color:#ccc"><strong>提出（任意）：</strong><code>opt_vit.ipynb</code> と <code>c1_d4_opt4_&lt;グループ&gt;.csv</code> を「第4回 課題提出」へ。</p>
+      <p style="font-size:0.85rem;color:#ccc"><strong>提出（任意）：</strong><code>opt_vit.ipynb</code> と <code>c1_d4_opt4.csv</code> を「第4回 課題提出」へ。</p>
       <p style="font-size:0.82rem;color:#999;margin-top:0.3rem">第5回（転移学習）では、大量の画像で学習済みの ViT と CNN を、同じ自分の写真で比べる。</p>
     </div>
   </div>

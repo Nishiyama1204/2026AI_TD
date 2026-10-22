@@ -28,8 +28,8 @@ code .
 
 ## 提出（全員が個人で）
 
-Open-LMS の「第4回 課題提出」へ zip にせずアップロード：`ex1.ipynb`，`ex2.ipynb`，`ex3_infer.ipynb`，`c1_d4_ex1_<グループ>.csv`，`c1_d4_ex2_<グループ>.csv`，`c1_d4_ex3_<グループ>.csv`．写真と `my_cnn.pt` は出さない．
+Open-LMS の「第4回 課題提出」へ zip にせずアップロード：`ex1.ipynb`，`ex2.ipynb`，`ex3_infer.ipynb`，`c1_d4_ex1.csv`，`c1_d4_ex2.csv`，`c1_d4_ex3.csv`．写真と `my_cnn.pt` は出さない．
 
-オプション課題（任意）は `opt_vit.ipynb` と `c1_d4_opt4_<グループ>.csv` を同じ所へ．
+オプション課題（任意）は `opt_vit.ipynb` と `c1_d4_opt4.csv` を同じ所へ．
 
 期限：次回（10/29）の授業開始まで
